@@ -74,7 +74,7 @@ def predict():
     rank = int(request.form['rank'])
 
     # Load and process the data
-    input_file = "C:/Users/admin/Desktop/input.xlsx"
+    input_file = "input.xlsx"
     df = load_and_process_data(input_file)
 
     # Train the model
